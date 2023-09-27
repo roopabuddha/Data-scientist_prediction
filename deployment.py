@@ -11,10 +11,10 @@ import nltk
 import  spacy
 
 with open("svm_model (1).pkl", "rb") as file:
-    model = pickle.load(file)
+    model = pickle.load(prediction_code.py)
 
 with open("tfidf_vectorizer (1).pkl", "rb") as file:
-    vectorizer = pickle.load(file)
+    vectorizer = pickle.load(prediction_code.py)
 
 nltk.download('stopwords')
 
