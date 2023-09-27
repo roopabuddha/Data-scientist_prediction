@@ -66,7 +66,7 @@ if st.button("Predict Salary"):
         predicted_salary = model.predict(text_vectorized)[0]
 
         st.header("Predicted Salary:")
-        st.subheader(f"The predicted salary for the given job description is: {predicted_salary:}")
+        st.subheader(f"The predicted salary for the given job description is: {predicted_salary:d}")
     else:
         st.subheader("Please enter a job description for salary prediction.")
 
