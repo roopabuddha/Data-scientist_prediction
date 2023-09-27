@@ -44,7 +44,7 @@ def lemmatizer(text):
 
 st.title("Data Scientist Prediction App")
 st.markdown("By rupa srija sirisha priya")
-image = Image.open("/data prediction.png")
+image = Image.open("data prediction.png")
 st.image(image, use_column_width=True)
 
 st.title("Data Scientist Salary Prediction")
